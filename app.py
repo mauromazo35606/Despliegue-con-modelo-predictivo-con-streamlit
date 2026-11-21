@@ -72,7 +72,7 @@ print(Y_pred)
 
 df['Prediccion']=Y_pred
 df.head()
-
+df
 # Recordar medida de error del modelo
 
 st.warning("El modelo tiene un error del 8% (mape: error porcentual)")
