@@ -23,11 +23,11 @@ import matplotlib.pyplot as plt
 import pickle
 filename = 'modelo-reg.pkl'
 modelo, min_max_scaler, encoder_dummies = pickle.load(open(filename, 'rb'))
-modelo
+#modelo
 
 #Cargamos los datos futuros
-df = pd.read_csv("videojuegos-datosFuturos.csv")
-df.head()
+#df = pd.read_csv("videojuegos-datosFuturos.csv")
+#df.head()
 
 # Interfaz gráfica
 
